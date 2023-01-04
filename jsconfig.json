@@ -1,4 +1,11 @@
 {
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+    "jsx": "preserve"
+    },
+  "vue/multi-word-component-names": ["error", {
+    "ignores": []
+    }],
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
